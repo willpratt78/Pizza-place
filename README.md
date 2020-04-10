@@ -12,7 +12,7 @@ click on add button input-click return- pirice of topping + price of pizza
 
 ## Setup/Installation Requirements
 
-* Open gh-pages link at
+* Open gh-pages link at https://willpratt78.github.io/Pizza-place/
 * alternitivly download Repo and open webpage on terminal
 ## Known Bugs
 
