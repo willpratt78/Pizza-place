@@ -6,7 +6,7 @@ function Pizza() {
 
 Pizza.prototype.addTopping = function(topChoice) {
   if((topChoice).checked) {
-    this.topping.push.parseInt((topChoice.val()))
+    this.topping.add.parseInt((topChoice.val()))
   }
 }
 
@@ -33,8 +33,9 @@ $(document).ready(function(){
     event.preventDefault()
 
     
-    if ("#sm".checked === true)
-    return totalCost("#sm")
+    if (sm === true)
+    return totalCost(1)
+    console.log(totalCost)
     })
  
     
