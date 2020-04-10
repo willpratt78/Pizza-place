@@ -17,7 +17,7 @@ Pizza.prototype.totalCost = function() {
 Pizza.prototype.pieSize = function(sizeChoice) {
   if ((sizeChoice).checked) {
     console.log(sizeChoice)
-    this.size.push(parseInt((sizeChoice.val())))
+    this.size.push(sizeChoice.val())
   }
 }
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
   $('form#pizza-price').submit(function(event){
     event.preventDefault()
 
-    if (sm === true)
+    if ("#sm" === true)
     return this.size
     console.log(this.size)
     })    
