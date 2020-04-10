@@ -33,8 +33,8 @@ $(document).ready(function(){
     event.preventDefault()
 
     
-    if (("#sm".checked) === true)
-    return console.log(1)
+    if ("#sm".checked === true)
+    return totalCost("#sm")
     })
  
     
