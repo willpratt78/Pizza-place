@@ -7,9 +7,40 @@
   <script src="js/scripts.js"></script>
   <link href="css/bootstrap.css" rel="styleseet" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Document</title>
+  <title>Will's Pizza</title>
 </head>
 <body>
-  
+  <div class="container">
+    <form id="pizza-price">
+      <h2>Pick your pizza size</h2>
+      <div class="radio">
+        <label>
+          <input type="radio" name="pizzaSize" value="5" checked>
+          Small $5
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="pizzaSize" value="7" checked>
+          Medium $7
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="pizzaSize" value="9" checked>
+          Large $9
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="pizzaSize" value="13" checked>
+          XLarge $13
+        </label>
+      </div>
+      <h2>Pick any topping(s) you want to have.</h2>
+      <button type="submit" class="btn-primary">Add cost</button>
+      <div class="output"></div>
+    </form>
+  </div>
 </body>
 </html>
