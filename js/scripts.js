@@ -32,8 +32,8 @@ $(document).ready(function(){
     event.preventDefault()
 
     if (sm === true)
-    return totalCost(1)
-    console.log(totalCost)
+    return this.size
+    console.log(this.size)
     })    
   })
 
