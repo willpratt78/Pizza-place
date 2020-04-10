@@ -34,9 +34,9 @@ $(document).ready(function(){
 
     
     if (("#sm".checked) === true)
-    totalCost(pieSize)
-    console.log(pieSize)
+    return console.log(1)
     })
+ 
     
     
   })
