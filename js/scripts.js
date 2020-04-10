@@ -17,7 +17,7 @@ Pizza.prototype.totalCost = function() {
 Pizza.prototype.pieSize = function(sizeChoice) {
   if ((sizeChoice).checked) {
     console.log(sizeChoice)
-    this.size.push(sizeChoice.val())
+    this.size.push(sizeChoice.val)
   }
 }
 
