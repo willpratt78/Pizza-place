@@ -26,20 +26,15 @@ var md = document.getElementById("md")
 var lg = document.getElementById("lg")
 var xl = document.getElementById("xl")
 
-
 // UI Logic
 $(document).ready(function(){
   $('form#pizza-price').submit(function(event){
     event.preventDefault()
 
-    
     if (sm === true)
     return totalCost(1)
     console.log(totalCost)
-    })
- 
-    
-    
+    })    
   })
 
 
